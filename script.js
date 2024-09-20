@@ -48,6 +48,6 @@ themeBtn.addEventListener('click', () => {
     }
     document.body.classList.add(theme);
     localStorage.setItem('theme', theme);
-})
+});
 
 loadCharacters();

@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    /* background-color: #111d4a; */
 }
 
 * {
@@ -74,4 +73,13 @@ h1 {
 .light {
     background-color: var(--light);
     color: var(--dark);
+}
+.div {
+    background-color: lightblue;
+    display: grid;
+    gap: 100px;
+    grid-template: repeat(6, 150px)/repeat(6, 150px);
+}
+.p {
+    margin-top: 50px;
 }
